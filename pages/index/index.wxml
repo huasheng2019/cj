@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<view class="index">
+    <swiper class="swiper" bindchange="pageChange">
+        <swiper-item>
+            <view class="container-one">
+                <image src="/images/banner.png" class="banner"></image>
+                <view class="list">
+                    <view class="item">
+                        <image src="/images/icons/icon1.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">一键导入成绩表格</view>
+                            <view class="content">导入班级成绩Excel表格，自动生成成绩单</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon2.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">系统自动私密发送成绩</view>
+                            <view class="content">家长只收到自己孩子的成绩</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon3.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">支持成绩点评</view>
+                            <view class="content">成绩表格里支持添加点评内容</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon4.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">微信提醒家长查收</view>
+                            <view class="content">系统自动通过微信提醒家长查收成绩</view>
+                        </view>
+                    </view>
+                    <view class="item">
+                        <image src="/images/icons/icon5.png" class="icon"></image>
+                        <view class="des">
+                            <view class="title">成绩数据永久存档</view>
+                            <view class="content">便于家长进行成绩情况分析</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="container-two">
+                <image src="/images/chengji.png" class="achievement-img"></image>
+                <view class="text">教育公益  免费使用</view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="container-three">
+                <image src="/images/nodata.png" class="nodata-img"></image>
+                <view class="content">此小程序己合并到功能更加强大的班小二，您可以直接跳转至班小二进行操作。         </view>
+                <view class="wrap-btn">
+                    <view class="btn">跳转到班小二</view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
