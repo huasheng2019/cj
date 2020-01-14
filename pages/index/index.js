@@ -6,13 +6,18 @@ Component({
      * 页面的初始数据
      */
     data: {
-
+        index:0
     },
 
     methods: {
 
         onLoad: function(){
 
+        },
+        onShow: function(){
+            this.setData({
+                index:0
+            })
         },
         pageChange:function(e){
             let index=e.detail.current;
@@ -26,6 +31,9 @@ Component({
             }
             wx.setNavigationBarTitle({
               title: title
+            });
+            this.setData({
+                index:index
             })
         }
 

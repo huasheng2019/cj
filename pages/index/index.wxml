@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="index">
-    <swiper class="swiper" bindchange="pageChange">
+    <swiper class="swiper" current="{{index}}" indicator-dots="{{true}}" indicator-active-color="#03767f" bindchange="pageChange">
         <swiper-item>
             <view class="container-one">
                 <image src="/images/banner.png" class="banner"></image>
@@ -45,8 +45,15 @@
         </swiper-item>
         <swiper-item>
             <view class="container-two">
+                <view class="title">教育公益  免费使用</view>
                 <image src="/images/chengji.png" class="achievement-img"></image>
-                <view class="text">教育公益  免费使用</view>
+                <view class="bottom-tips-wrap">
+                    <image mode="aspectFit" src="../../images/tips-bg.png" class="tips-bg"></image>
+                    <view class="tips-wrap">
+                        <view class="tips">快速导入、私密发送</view>
+                        <view class="tips">为老师提高20倍工作效率</view>
+                    </view>
+                </view>
             </view>
         </swiper-item>
         <swiper-item>
