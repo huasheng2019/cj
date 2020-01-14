@@ -35,6 +35,12 @@ Component({
             this.setData({
                 index:index
             })
+        },
+
+        goBxe:function(){
+            wx.navigateToMiniProgram({
+                appId:"wx75d76636270457e2"
+            });
         }
 
     }

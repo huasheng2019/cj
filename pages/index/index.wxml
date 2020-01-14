@@ -61,7 +61,7 @@
                 <image src="/images/nodata.png" class="nodata-img"></image>
                 <view class="content">此小程序己合并到功能更加强大的班小二，您可以直接跳转至班小二进行操作。         </view>
                 <view class="wrap-btn">
-                    <view class="btn">跳转到班小二</view>
+                    <view class="btn" bindtap="goBxe">跳转到班小二</view>
                 </view>
             </view>
         </swiper-item>
