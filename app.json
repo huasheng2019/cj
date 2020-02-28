@@ -5,7 +5,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#83CCD2",
-    "navigationBarTitleText": "作业",
+    "navigationBarTitleText": "班级作业打卡",
     "navigationBarTextStyle": "white"
   },
   "style": "v2",
