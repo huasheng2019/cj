@@ -23,11 +23,11 @@ Component({
             let index=e.detail.current;
             let title='';
             if(index==0){
-                title='班小二私密成绩';
+                title='作业';
             }else if(index==1){
-                title='学生成绩';
+                title='打卡';
             }else if(index==2){
-                title='班小二成绩管理私密发送';
+                title='班级作业打卡';
             }
             wx.setNavigationBarTitle({
               title: title
