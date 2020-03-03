@@ -8,7 +8,7 @@
                     <view class="item">
                         <image src="/images/icons/img1.png" class="icon"></image>
                         <view class="des">
-                            <view class="title">随时随地布置作业3</view>
+                            <view class="title">随时随地布置作业</view>
                             <view class="content">可发文件，语音，视频，图片等附件</view>
                         </view>
                     </view>
